@@ -10,6 +10,8 @@
 * Make sure this Folder exists and Empty for the First time
 	* mongo_configdb
 	* mongo_db
+* Change `homepage` part of manifest.json of DashboardGlosarium and glosarium-react, change it into currently Deployed Domain (Base URL)
+* Edit docker-compose.yml with your own Configuration (i.e: Port, Database Host, Database Name)
 * `docker-compose up -d --build`
 * Check if all running well by executing `docker ps -a`
 * Make Reverse Proxy with NGINX to Already Configured Port
