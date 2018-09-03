@@ -1,0 +1,37 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  database:
+    image: mongo
+    restart: always
+
+  api:
+    build:
+      context: ./GlosariumAPI
+      dockerfile: Dockerfile
+      args:
+        - "DATABASE_HOST=database"
+        - "DATABASE_NAME=glosarium_production"
+    depends_on:
+      - database
+    ports:
+     - "81:81"
+    restart: always
+  
+  dashboard:
+    build: ./DashboardGlosarium
+    depends_on:
+      - api
+    ports:
+      - "82:80"
+    restart: always
+
+  client:
+    build: ./glosarium-react
+    depends_on:
+      - api
+    ports:
+      - "83:80"
+    restart: always
+

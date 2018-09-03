@@ -1,0 +1,9 @@
+[submodule "glosarium-react"]
+	path = glosarium-react
+	url = git@git.arkademy.com:muhammad_fajar_25rpl/glosarium-react.git
+[submodule "DashboardGlosarium"]
+	path = DashboardGlosarium
+	url = git@git.arkademy.com:helmizu/DashboardGlosarium.git
+[submodule "GlosariumAPI"]
+	path = GlosariumAPI
+	url = git@git.arkademy.com:helmizu/GlosariumAPI.git
