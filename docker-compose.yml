@@ -5,6 +5,9 @@ services:
   database:
     image: mongo
     restart: always
+    volumes:
+     - "./mongo_db:/data/db"
+     - "./mongo_configdb:/data/configdb"
 
   api:
     build:
