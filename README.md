@@ -12,7 +12,7 @@
 * Make Reverse Proxy with NGINX to Already Configured Port
 
 # Update
-* git submodule update --remote --merge
+* `git submodule update --remote --merge`
 * Do All installation beginning on Installation Section on Number 2
 
 
