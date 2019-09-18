@@ -1,9 +1,9 @@
 [submodule "glosarium-react"]
 	path = glosarium-react
-	url = git@git.arkademy.com:muhammad_fajar_25rpl/glosarium-react.git
+	url = git@github.com:helmizu/glosarium_react.git
 [submodule "DashboardGlosarium"]
 	path = DashboardGlosarium
-	url = git@git.arkademy.com:helmizu/DashboardGlosarium.git
+	url = git@github.com:helmizu/Dashboard_Glosarium.git
 [submodule "GlosariumAPI"]
 	path = GlosariumAPI
-	url = git@git.arkademy.com:helmizu/GlosariumAPI.git
+	url = git@github.com:helmizu/Glosarium_API.git
